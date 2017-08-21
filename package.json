@@ -5,7 +5,16 @@
   "repository": "https://github.com/Perlou/underscore_note.git",
   "author": "Perlou <perloukevin@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --open"
+  },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "css-loader": "^0.28.5",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.18.2",
     "webpack": "^3.5.5",
     "webpack-dev-server": "^2.7.1"
   }
