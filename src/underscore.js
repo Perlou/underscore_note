@@ -5,16 +5,12 @@
 
 (function () {
 
-    // var root = typeof self == 'object' && self.self
-    var root = {};
+    const root = {};
+    const previousUnderscore = root._;
 
-    var previousUnderscore = root._;
-
-    var ArrayProto = Array.prototype,
-        ObjectProto = Object.prototype;
-
-    console.log(Symbol)
-
-    // var SymbolProto = typeof Symbol !== 'undefined' ? Symbol
+    const ArrayProto = Array.prototype;
+    const ObjProto = Object.prototype;
+    const SymbolProto = typeof Symbol !== 'undefined' ? Symbol.prototype : null;
+    
 
 })()
